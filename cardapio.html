@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Açaiteria do Lelé - Cardápio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-50 font-sans min-h-screen pb-24">
+
+<header class="bg-[#7B1FA2] text-white py-3 px-4 sticky top-0 z-50 flex items-center justify-between shadow-md">
+  <span class="font-bold tracking-wide text-lg">goomer</span>
+  <div class="text-xs bg-[#9C27B0] px-2 py-1 rounded">PRO</div>
+</header>
+
+<section class="bg-white p-4 border-b border-gray-100 flex items-center justify-between">
+  <div class="flex items-center gap-3">
+    <div class="w-16 h-16 bg-[#D1C4E9] rounded-xl flex items-center justify-center p-2">
+      <span class="text-[#4A148C] font-bold text-xs text-center">Açaiteria</span>
+    </div>
+    <div>
+      <h2 class="font-bold text-gray-800 text-lg">Açaiteria do Lelé</h2>
+      <div class="flex gap-2 mt-1">
+        <span class="text-xs bg-gray-100 text-gray-600 px-2 py-0.5 rounded">🍴 Sorvetes & açaí</span>
+        <span class="text-xs text-emerald-600 border border-emerald-400 px-2 py-0.5 rounded font-medium">🕒 Aberta</span>
+      </div>
+    </div>
+  </div>
+  <span class="text-gray-400 text-xl">❯</span>
+</section>
+
+<div class="bg-white px-4 py-2 text-xs text-gray-500 flex items-center gap-2 border-b border-gray-100">
+  🛵 <span class="underline cursor-pointer">Ver tempo e taxa de entrega</span>
+</div>
+
+<nav class="bg-white border-b border-gray-200 sticky top-[52px] z-40 overflow-x-auto whitespace-nowrap scrollbar-none flex gap-2 p-3">
+  <button class="bg-[#7B1FA2] text-white px-4 py-2 rounded-md font-medium text-sm">MILK - SHAKES 330ml</button>
+  <button class="border border-[#7B1FA2] text-[#7B1FA2] px-4 py-2 rounded-md font-medium text-sm bg-purple-50">MONTE SEU AÇAÍ</button>
+  <button class="border border-gray-300 text-gray-600 px-4 py-2 rounded-md font-medium text-sm">GELADOS</button>
+</nav>
+
+<main class="p-4 max-w-md mx-auto">
+  <h3 class="text-gray-700 font-bold text-sm uppercase tracking-wider mb-4">MILK - SHAKES 330ml</h3>
+
+  <div class="bg-white rounded-xl p-4 shadow-sm flex gap-4 border border-gray-100 hover:shadow-md transition cursor-pointer">
+    <div class="flex-grow">
+      <h4 class="font-bold text-gray-900 text-base mb-1">Milk - shake | Ninho c/Morango</h4>
+      <p class="text-gray-500 text-sm leading-relaxed mb-3">Nosso milk - shake gourmet composto com nossa deliciosa base de Ninho + Morango</p>
+      <span class="text-[#7B1FA2] font-bold text-base">R$ 17,00</span>
+    </div>
+    <div class="w-24 h-24 bg-pink-100 rounded-lg flex-shrink-0 flex items-center justify-center overflow-hidden border border-gray-200">
+      <span class="text-pink-500 text-xs font-bold">Milkshake 🍓</span>
+    </div>
+  </div>
+</main>
+
+<footer class="fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200 py-2 px-6 flex justify-between items-center z-50 shadow-[0_-2px_10px_rgba(0,0,0,0.05)]">
+  <button class="flex flex-col items-center text-[#7B1FA2]">
+    <span class="text-xl">📖</span>
+    <span class="text-xs font-semibold mt-0.5">Cardápio</span>
+  </button>
+  <button class="flex flex-col items-center text-gray-400 hover:text-[#7B1FA2]">
+    <span class="text-xl">🔍</span>
+    <span class="text-xs mt-0.5">Busca</span>
+  </button>
+  <button class="flex flex-col items-center text-gray-400 hover:text-[#7B1FA2]">
+    <span class="text-xl">📋</span>
+    <span class="text-xs mt-0.5">Pedido</span>
+  </button>
+  <button class="flex flex-col items-center text-gray-400 hover:text-[#7B1FA2]">
+    <span class="text-xl">👤</span>
+    <span class="text-xs mt-0.5">Entrar</span>
+  </button>
+</footer>
+
+</body>
+</html>

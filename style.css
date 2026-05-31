@@ -1,0 +1,18 @@
+/* Esconder barra de rolagem horizontal mantendo a funcionalidade de scroll */
+.scrollbar-none::-webkit-scrollbar {
+   display: none;
+}
+.scrollbar-none {
+   -ms-overflow-style: none;  /* IE and Edge */
+   scrollbar-width: none;  /* Firefox */
+}
+
+/* Configuração suave de clique para dispositivos móveis */
+body {
+   -webkit-tap-highlight-color: transparent;
+}
+.flex{
+   span{
+      font-family: Arial, sans-serif;
+   }
+}
